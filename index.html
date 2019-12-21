@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>weatherApp</title>
+  </head>
+  <body>
+<div class="container-fluid">
+    <div class="fullscreen-bg">
+      <video autoplay muted loop class="fullscreen-bg_video">
+        <source src="images/Rain - 28236.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="animated fadeInDown delay-0.5s"><span>weath<span>er</span></span><span>App</span> <br>&#127780 &#127781 &#127782 &#127783</h1>
+          <p class="lead animated fadeInDown delay-0.5s">
+                Don't forget your coat.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+      <form class="animated fadeInUp delay-0.5s">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                      <input type="radio" aria-label="name">
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="nameInput" placeholder="">
+                  </div>
+              <small id="nameHelp" class="form-text">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="zipCode">Zip Code</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <small id="zipHelp" class="form-text">(EX : 32068)</small>
+            </div>
+            <div class="form-group">
+                <label for="longLat">Latitude / Longitude</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <small id="nameHelp" class="form-text">(EX : -17.96747 108.09348) seperate by space.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
