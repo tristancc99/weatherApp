@@ -24,7 +24,7 @@
 <div class="container-fluid">
     <div class="fullscreen-bg">
       <video autoplay muted loop class="fullscreen-bg_video">
-        <source src="images/Rain - 28236.mp4" type="video/mp4" />
+        <source src="media/Rain - 28236.mp4" type="video/mp4" />
       </video>
     </div>
 
@@ -46,21 +46,35 @@
                       <input type="radio" aria-label="name">
                       </div>
                     </div>
-                    <input type="text" class="form-control" aria-label="nameInput" placeholder="">
+                    <input type="text" class="form-control" aria-label="nameInput" placeholder="EX : Jacksonville">
                   </div>
-              <small id="nameHelp" class="form-text">We'll never share your email with anyone else.</small>
+              <small id="nameHelp" class="form-text">(EX : Jacksonville</small>
             </div>
             <div class="form-group">
               <label for="zipCode">Zip Code</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                      <input type="radio" aria-label="zipCode">
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="zipInput" placeholder="EX : 32068">
+                  </div>
               <small id="zipHelp" class="form-text">(EX : 32068)</small>
             </div>
             <div class="form-group">
                 <label for="longLat">Latitude / Longitude</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                          <input type="radio" aria-label="coord">
+                          </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="coordInput" placeholder="EX : -17.96747 108.09348">
+                      </div>
                 <small id="nameHelp" class="form-text">(EX : -17.96747 108.09348) seperate by space.</small>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-primary">Submit</button>
           </form>
         </div>
     </div>

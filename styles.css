@@ -20,7 +20,7 @@
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url("images/Rain - 28236.mp4") center center / cover no-repeat;
+    background: url("media/Rain - 28236.mp4") center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
@@ -40,6 +40,7 @@
 
 .jumbotron h1 {
   font-size: 100px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .jumbotron h1 span {
@@ -51,6 +52,7 @@ form {
   border-radius: 4%;
   background-color: rgba(18, 41, 63, 0.548);
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 form small {
